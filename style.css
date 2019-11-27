@@ -219,7 +219,7 @@ h6 {
 
 .portfolio__inner{
   width: 100%;
-  max-width: 1169px;
+  max-width: 1170px;
   margin: 0 auto;
   text-align: center;
 }
@@ -243,6 +243,7 @@ h6 {
   text-transform: uppercase;
   color: #999999;
   margin-right: 55px;
+  
 
   transition: .2s;
 }
@@ -267,4 +268,42 @@ h6 {
 
 .portfolio__navbar:hover::after{
   opacity: 1;
+}
+
+.portfolio__items{
+  padding: 0;
+  margin-top: 50px;
+  margin-bottom: 62px;
+  width: 100%;
+  max-width: 1170px;
+  font-size: 0;
+}
+
+.portfolio__item{
+  vertical-align: bottom;
+  display: inline-block;
+  background-color: #f4f5f9;
+  width: 380px;
+  height: 350px;
+  margin-left: 0;
+  margin-top: 15px;
+  margin-right: 15px;
+  box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+}
+
+.portfolio__item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.portfolio__item-text{
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: #999999;
+  font-weight: 400;
+  padding: 22px 33px 0;
+  text-align: left;
+}
+
+.portfolio_btn{
+  text-transform: uppercase;
 }
